@@ -1,0 +1,14 @@
+[
+  {
+    "task": "Write a Python function that parses an ARN (Amazon Resource Name) and returns a dictionary with its components: partition, service, region, account-id, and resource. The function should handle ARNs in the format 'arn:partition:service:region:account-id:resource'.",
+    "format": "python"
+  },
+  {
+    "task": "Create a JSON object representing an AWS IAM policy that allows read-only access to a specific S3 bucket named 'my-data-bucket'. The policy should allow s3:GetObject and s3:ListBucket actions.",
+    "format": "json"
+  },
+  {
+    "task": "Write a regex pattern that validates AWS Security Group IDs. Security Group IDs start with 'sg-' followed by either 8 hexadecimal characters (old format) or 17 hexadecimal characters (new format).",
+    "format": "regex"
+  }
+]
