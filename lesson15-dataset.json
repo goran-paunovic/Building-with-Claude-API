@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "72 kg",
+      "goal": "Marathon training day - high-endurance athlete needing 3000+ calories with carbohydrate loading and strategic recovery nutrition timing",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan totals 3000+ calories with emphasis on carbohydrates (55-65% of total calories)",
+      "Includes 4-5 meals/snacks strategically timed around training (pre-workout, during/post-workout, recovery)",
+      "Compact format presented as single-day schedule with times and portion sizes",
+      "All meals are practical, realistic, and support marathon endurance and recovery"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring 3000+ calories with emphasis on carbohydrate loading and recovery nutrition timing throughout the day"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "85 kg",
+      "goal": "Build muscle mass and strength with high protein intake for weightlifting",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan contains minimum 150g protein distributed across all meals",
+      "Includes pre- and post-workout nutrition timing around training session",
+      "Provides balanced micronutrients (iron, zinc, magnesium) supporting recovery",
+      "Compact format with 4-5 meals listed with approximate portions and macros"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength-focused athlete (weightlifter) needing high protein intake (150+ grams) with specific meal timing around training sessions and micronutrient balance"
+  },
+  {
+    "prompt_inputs": {
+      "height": "188 cm",
+      "weight": "85 kg",
+      "goal": "High-performance basketball player needs sustained energy and muscle recovery for court play",
+      "restrictions": "Vegan (no animal products including dairy, eggs, honey)"
+    },
+    "solution_criteria": [
+      "All meals and snacks are completely plant-based with no animal products",
+      "Total daily calories and macronutrients support athletic performance (approximately 2,800-3,200 calories with adequate protein for muscle recovery)",
+      "Meal plan is compact and concise (4-5 meals/snacks maximum)",
+      "Includes practical, accessible vegan alternatives that support basketball performance"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport-specific dietary restriction scenario (vegan basketball player) requiring complete plant-based alternatives while meeting caloric and macro needs for court performance"
+  }
+]
