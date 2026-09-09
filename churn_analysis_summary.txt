@@ -1,0 +1,139 @@
+
+====================================================================================================
+STREAMING SERVICE CHURN ANALYSIS - EXECUTIVE SUMMARY
+====================================================================================================
+
+OVERVIEW
+--------
+Dataset: 500 customers
+Churn Rate: 38.60%
+Churned: 193 customers
+Retained: 307 customers
+
+TOP CHURN DRIVERS (Machine Learning Feature Importance)
+--------------------------------------------------------
+1. Total Viewing Hours (Importance: 0.2384)
+   - Churned users: 66.6 hours/month
+   - Retained users: 83.2 hours/month
+   - Difference: 16.6 hours (25.0%)
+
+2. Average Session Duration (Importance: 0.2155)
+   - Churned users: 49.4 minutes
+   - Retained users: 57.8 minutes
+   - Difference: 8.3 minutes
+
+3. Unique Titles Watched (Importance: 0.1587)
+   - Churned users: 19.5 titles
+   - Retained users: 23.7 titles
+   - Difference: 4.3 titles
+
+CRITICAL BEHAVIORAL DIFFERENCES
+--------------------------------
+Metric                          Churned    Retained   Difference   P-Value
+------------------------------------------------------------------------------
+Viewing Hours/Month                66.6        83.2        16.6      < 0.001 ***
+Unique Titles Watched              19.5        23.7         4.3      < 0.001 ***
+Binge Watching Sessions             6.2         7.7         1.5      < 0.001 ***
+Avg Session Duration (min)         49.4        57.8         8.3      < 0.001 ***
+Customer Service Contacts           3.2         2.5         0.7      < 0.001 ***
+
+All differences are statistically significant (p < 0.001)
+
+SUBSCRIPTION TIER ANALYSIS
+--------------------------
+Tier         Churned    Total    Churn Rate
+Basic            90       207       43.5%
+Standard         83       210       39.5%
+Premium          20        83       24.1%
+
+→ Basic tier has 19.4% higher churn than Premium
+
+GENRE PREFERENCE IMPACT
+-----------------------
+             Churned  Total  Churn_Rate
+TopGenre                               
+Horror            23     44   52.272727
+Thriller          14     29   48.275862
+Action            33     74   44.594595
+Romance           23     55   41.818182
+SciFi             17     42   40.476190
+Drama             36    102   35.294118
+Comedy            33    100   33.000000
+Documentary       14     54   25.925926
+
+ENGAGEMENT LEVEL SEGMENTATION
+-----------------------------
+Engagement      Churn Rate    Count
+Low             60.4%           91
+Medium          38.1%          289
+High            23.3%          120
+
+→ Low engagement users are 2.6x more likely to churn
+
+RISK ASSESSMENT
+---------------
+Risk Level       Churn Rate    Count    Priority
+Very High Risk   61.2%           98        URGENT
+High Risk        43.4%            76        HIGH
+Medium Risk      40.2%            87        MEDIUM
+Low Risk         27.2%           239        LOW
+
+KEY INSIGHTS
+------------
+1. ENGAGEMENT IS KING: Viewing hours, session duration, and content variety are the strongest 
+   predictors of churn. Low engagement is the #1 warning sign.
+
+2. CUSTOMER SERVICE PARADOX: More service interactions correlate with higher churn, suggesting
+   underlying product/service issues that need investigation.
+
+3. TIER VULNERABILITY: Basic tier customers churn at nearly 2x the rate of Premium customers,
+   despite lower monthly costs - value perception issue.
+
+4. GENRE MATTERS: Horror and Thriller fans show 2x churn rate vs Documentary and Comedy fans,
+   possibly due to content satisfaction or catalog depth.
+
+5. EARLY WARNING INDICATORS:
+   - Viewing drops below 50 hours/month
+   - Less than 15 unique titles watched
+   - Multiple customer service contacts
+   - Fewer than 5 binge-watching sessions
+
+ACTIONABLE RECOMMENDATIONS
+--------------------------
+IMMEDIATE (Week 1):
+☐ Contact all "Very High Risk" customers (98 users) with personalized retention offers
+☐ Set up automated alerts for engagement drop-offs (viewing < 50h/month)
+☐ Investigate top 5 customer service issues driving contacts
+
+SHORT-TERM (Month 1):
+☐ Launch "engagement revival" campaign for low-engagement users (personalized recommendations)
+☐ Audit Basic tier value proposition - consider enhanced features or exclusive content
+☐ Develop targeted content for Horror/Thriller fans or improve recommendations
+☐ Implement "We miss you" re-engagement emails for declining users
+
+MEDIUM-TERM (Quarter 1):
+☐ Build predictive churn model based on these findings for proactive intervention
+☐ Redesign onboarding for Basic tier to drive higher initial engagement
+☐ Create genre-specific retention strategies
+☐ Improve content discovery algorithms to boost unique titles watched
+☐ Address root causes of customer service contacts to reduce incidents
+
+LONG-TERM (Year 1):
+☐ Develop personalized engagement scoring system
+☐ Implement dynamic pricing/offers based on risk level
+☐ Build content strategy around high-retention genres
+☐ Create loyalty programs that reward engagement behaviors
+
+EXPECTED IMPACT
+---------------
+If successfully implemented, these recommendations could:
+• Reduce Very High Risk segment churn by 30-40%
+• Increase overall engagement by 20-25%
+• Lower Basic tier churn to Standard tier levels
+• Potentially reduce overall churn rate from 38.6% to ~28-30%
+• Improve customer lifetime value by 15-20%
+
+====================================================================================================
+ANALYSIS COMPLETED
+Generated: 2026-09-09 10:19:32
+====================================================================================================
